@@ -3,19 +3,19 @@
 @font-face
 {
 font-family: "font-1";
-src: url(./polices/Roboto/Roboto-Regular.ttf)
+src: url(./Polices/Roboto/Roboto-Regular.ttf)
 }
 
 @font-face
 {
 font-family: "font-2";
-src: url(./polices/Roboto/Roboto-Light.ttf)
+src: url(./Polices/Roboto/Roboto-Light.ttf)
 }
 
 @font-face
 {
 font-family: "font-3";
-src: url(./polices/Roboto/Roboto-Bold.ttf)
+src: url(./Polices/Roboto/Roboto-Bold.ttf)
 }
 
 /*** Body ***/
