@@ -1,0 +1,317 @@
+
+/*** Font ***/
+@font-face
+{
+font-family: "font-1";
+src: url(./polices/Roboto/Roboto-Regular.ttf)
+}
+
+@font-face
+{
+font-family: "font-2";
+src: url(./polices/Roboto/Roboto-Light.ttf)
+}
+
+@font-face
+{
+font-family: "font-3";
+src: url(./polices/Roboto/Roboto-Bold.ttf)
+}
+
+/*** Body ***/
+
+body
+{
+font-family: "font-1", arial, sans-serif;
+}
+
+/*** Nav ***/
+
+ul
+{
+    display: flex;
+        justify-content: space-between;
+    align-items: baseline;
+    list-style-type: none;
+    padding-left: 2%;
+}
+
+#troisbarre
+{
+position: absolute;
+height: 30px;
+width: auto;
+right:25px;
+top:28px;
+
+
+}
+
+/*** Section une ***/
+
+#section_une
+{
+position: relative;
+z-index: -1;
+min-height: 1000px;
+}
+
+h1
+{
+    position: absolute;
+    top: -30px;
+    font-size: 3.7em;
+    text-align: left;
+    width: 50%;
+    margin-left: 5%;
+    font-family: "font-3",arial,sans-serif;
+}
+
+h2
+{
+    text-align: left;
+    margin-left: 60%;
+    margin-right: 5%;
+    font-weight: normal;
+    font-size: 1.2em;
+    position: absolute;
+    top: 200px;
+    font-family: "font-2", arial,sans-serif;
+    line-height: 30px;
+}
+
+#soustext
+{
+    margin-left: 60%;
+    margin-right: 5%;
+    font-weight: bold;
+    position: absolute;
+    font-size: 1.2em;
+    top: 510px
+}
+
+.bouton
+{
+    background-color: rgb(115, 145, 196); 
+    color: aliceblue;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 60%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 600px
+    
+}
+
+.bouton:hover
+{
+    transition-delay: 300ms;
+    background-color: rgb(255, 0, 140); 
+    color: aliceblue;
+    height: 50px;
+    width: 250px;
+    border-radius: 50px;
+    margin-left: 60%;
+    text-align: center;
+    line-height: 50px;
+    position: absolute;
+    top: 600px
+    
+}
+
+#pensif
+{
+    width: 360px;
+    height: auto;
+    position: absolute;
+    bottom: 0px;
+    left: 115px
+    
+    
+}
+
+#cercle
+{
+    background-color: rgb(115, 145, 196);
+    border-radius: 200px 200px 200px 0px;
+    -webkit-border-radius: 200px 200px 200px 0px;
+    -moz-border-radius: 200px 200px 200px 0px;
+    height: 400px;
+    width: 400px;
+    position: absolute;
+    bottom: 0px;
+    left: -8px;
+    z-index: -1;    
+    
+    
+}
+
+aside
+{
+    position: relative;
+    margin-top: -1000px;
+  
+}
+
+aside a 
+{
+    color: aliceblue;
+    text-decoration: none;
+}
+
+
+/***** Section deux *****/
+
+#transition 
+{
+    background-color: rgb(239, 243, 249);
+    
+    height: 1000px;
+    width: 100%;
+    position: absolute;
+    padding: 0px;
+    margin: 0px;
+    left:0px;
+    top: 1080px;
+}
+
+
+#section_deux
+{
+   position: absolute;
+   top: 1080px;
+   right: 0px;
+   left: 0px;
+   min-height: 2000px;
+   min-width: 100%;
+
+}
+
+h3
+{
+    font-family: "font-3",arial,sans-serif;
+    color: rgb(115, 145, 196);
+    text-align: center;
+    font-size: 3.5em;
+    margin: 50px 20px 40px 20px;
+}
+
+h4
+{
+    font-family: "font-3",arial,sans-serif;  
+    color: rgb(115, 145, 196);
+    text-align: center;
+    font-size: 1.3em;
+    margin: -30px 25px 0px 25px;
+}
+
+#soustitre2
+{
+    text-align: center;
+    margin: 0px 100px 50px 20px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+#fonctionalités
+{
+position: relative;    
+
+    display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-evenly;
+	align-items: center;
+	align-content: stretch;
+
+    
+}
+
+#fonctionalités span
+{
+    border: 25px solid rgba(239, 243, 249);
+    background-color: rgb(255, 255, 255);
+    height: 325px;
+    width: 325px;
+}
+
+#section_deux p
+{
+    font-size: 1.1em;
+    font-family: "font-2",arial,sans-serif;
+    text-align: center;
+    margin: -50px 25px 0px 25px;
+}
+
+.arrow
+{
+    height: 80px;
+    width: auto;
+    margin-bottom: -75px;
+
+   
+}
+
+#cube1
+{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+
+
+#graphup
+{
+    
+    height: 60px;
+    width: auto;
+}
+
+
+#cube2
+{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#wallet
+{
+    height: 60px;
+    width: auto;
+}
+
+
+#cube3
+{
+    display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#lock
+{
+    height: 60px;
+    width: auto;
+}
+
+#cube4
+{
+   display: flex;    
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+#notes
+{
+    height: 60px;
+    width: auto;
+}
